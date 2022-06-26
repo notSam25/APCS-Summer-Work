@@ -4,13 +4,10 @@ public class OperatorsPractice {
         //Type what you think each line will print out to the right of the line itself
         boolean a = true;
         boolean b = false;
-        System.out.println(a || b); // Predicted Output:
-        System.out.println(a && b); // Predicted Output:
-        System.out.println(9 == 10); // Predicted Output:
-        System.out.println(-1 > -3); // Predicted Output:
-        System.out.println(2 <= 2); // Predicted Output:
-
-
-
+        System.out.println(a || b); // Predicted Output: true
+        System.out.println(a && b); // Predicted Output: false
+        System.out.println(9 == 10); // Predicted Output: false
+        System.out.println(-1 > -3); // Predicted Output: true
+        System.out.println(2 <= 2); // Predicted Output: true
     }
 }
