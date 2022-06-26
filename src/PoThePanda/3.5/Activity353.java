@@ -7,6 +7,6 @@ public class Activity353 {
     }
     // add your boolean statement in place of the true after the return
     public static boolean survive(boolean right, boolean left){
-        return true;
+        return right || left || (!left && !right);
     }
 }
