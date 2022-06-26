@@ -11,6 +11,6 @@ public class Activity364 {
     }
     // add your boolean statement in place of the true after the return
     public static boolean survive(boolean home, boolean food, boolean water){
-        return true;
+        return !((!home && !food) || (home && !water) || (!water && !food));
     }
 }

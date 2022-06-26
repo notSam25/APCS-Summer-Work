@@ -7,6 +7,6 @@ public class Activity362 {
     }
     // add your boolean statement in place of the true after the return
     public static boolean survive(boolean lost, boolean poisonedWell){
-        return true;
+        return lost || (!lost && poisonedWell);
     }
 }
